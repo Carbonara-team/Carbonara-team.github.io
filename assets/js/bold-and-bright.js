@@ -1,11 +1,11 @@
 (function() {
-  "use strict"; 
+  "use strict"; // Start of use strict
 
   var mainNav = document.querySelector('#mainNav');
 
   if (mainNav) {
 
-
+    // Collapse Navbar
     var collapseNavbar = function() {
 
       var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
@@ -16,13 +16,13 @@
         mainNav.classList.remove("navbar-shrink");
       }
     };
-
+    // Collapse now if page is not at top
     collapseNavbar();
-
+    // Collapse the navbar when page is scrolled
     document.addEventListener("scroll", collapseNavbar);
   }
 
-
+  // bageutteBox init
   if (document.getElementsByClassName('popup-gallery').length > 0) {
     baguetteBox.run('.popup-gallery', { animation: 'slideIn' });
   }
@@ -83,5 +83,5 @@
   }
 
   initParallax();
-})(); 
+})(); // End of use strict
 
