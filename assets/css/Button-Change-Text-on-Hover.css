@@ -137,3 +137,20 @@
   margin-bottom: 5%;
 }
 
+.name {
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  padding: 10px;
+  color: var(--bs-white);
+  width: 100%;
+  background: rgb(91,207,255);
+  background: linear-gradient(90deg, rgba(91,207,255,0.87718837535014) 0%, rgba(175,238,255,0.3029586834733894) 35%, rgba(255,255,255,0) 100%);
+}
+
+.card {
+  border-radius: 25px;
+  border: 2px solid #3cbbe3;
+  padding: 20px;
+  width: 100%;
+}
+
